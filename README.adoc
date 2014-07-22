@@ -1,0 +1,22 @@
+= SBuild Scalac Plugin
+:sbuildversion: 0.7.9010
+:pluginversion: 0.0.9000
+
+This SBuild plugin provides a Scala compiler
+
+== Installation
+
+There is currently no release of this plugin. You need to build it by yourself.
+
+== Building from Source
+
+You need a recent version of SBuild.
+
+----
+git clone https://github.com/SBuild-org/sbuild-scalac-plugin.git
+cd sbuild-sbuild-plugin/org.sbuild.plugins.scalac
+sbuild jar
+----
+
+You will find the built jar in the directory `org.sbuild.plugins.scalac/target`.
+
